@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AyyanzTech - Web Services</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">AyyanzTech</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="jumbotron jumbotron-fluid bg-primary text-white text-center mb-0">
+    <div class="container">
+      <h1 class="display-4">Welcome to AyyanzTech</h1>
+      <p class="lead">We design and develop websites, apps, and more!</p>
+    </div>
+  </header>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pexels-photo-251225.webp" class="card-img-top" alt="Website Design">
+            <div class="card-body">
+              <h5 class="card-title">Website Design</h5>
+              <p class="card-text">We create stunning, user-friendly websites that leave a lasting impression.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pexels-pixabay-147413.jpg" class="card-img-top" alt="App Development">
+            <div class="card-body">
+              <h5 class="card-title">App Development</h5>
+              <p class="card-text">We build native and cross-platform mobile applications to meet your business needs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pexels-pixabay-38544.jpg" class="card-img-top" alt="Web Services">
+            <div class="card-body">
+              <h5 class="card-title">Web Services</h5>
+              <p class="card-text">We offer a range of web-related services including hosting, maintenance, and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Portfolio</h2>
+      <div class="row">
+        <!-- Add portfolio items with images and descriptions -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pro1.webp" class="card-img-top" alt="Portfolio Item 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pro2.jpeg" class="card-img-top" alt="Portfolio Item 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/pro3.jpeg" class="card-img-top" alt="Portfolio Item 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2023 AyyanzTech. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white mr-2">Privacy Policy</a>
+        <a href="#" class="text-white">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(window).on("load", function() {
+      // Hide the loading overlay when the page is fully loaded
+      $(".loading-overlay").fadeOut("slow");
+    });
+  </script>
+</body>
+</html>
